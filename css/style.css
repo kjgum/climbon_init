@@ -231,7 +231,7 @@ body.sub-page .logo {
 /* ---------------------------------------------------------------------------- */
 
 #nav {
-    font-family: Asap;
+    font-family:;
 }
 
 #nav > .navbar-inner {
@@ -275,7 +275,7 @@ body.sub-page .logo {
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: #fff;
-    background-color: #7F9A00;
+    background-color: #A6A354;
 }
 
 .dropdown-menu > li > a {
@@ -284,7 +284,7 @@ body.sub-page .logo {
 
 .navbar-default .navbar-toggle,
 .navbar-default .navbar-toggle:focus {
-    background-color: #7F9A00;
+    background-color: #A6A354;
     border: 0px;
 }
 
@@ -905,7 +905,7 @@ a.btn:focus {
 .btn-skin {
     padding: 8px 20px;
     color: #fff;
-    background-color: #7F9A00;
+    background-color: #A6A354;
     min-width: 110px;
 }
 
