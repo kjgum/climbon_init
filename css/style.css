@@ -205,15 +205,15 @@ body.sub-page .logo {
     outline: medium none;
     padding: 7px 10px 4px;
     /*transition: border-color 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s;*/
-    border-color: #9c8979;
+    border-color: #5e403c;
     width: 100%;
     background-color: #eae2d1;
 }
 
 #search button {
-    background: #9c8979;
+    background: #5e403c;
     color: #EAE2D1;
-    border: 1px solid #9c8979;
+    border: 1px solid #5e403c;
 }
 
 .top .top-search {
