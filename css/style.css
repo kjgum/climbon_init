@@ -410,7 +410,7 @@ body.sub-page .logo {
     font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
-    color: #EAE2D1;
+    color: #fff;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -438,20 +438,20 @@ body.sub-page .logo {
 
 .box-content.box-style-1 {
     background-attachment: fixed;
-    background-image: url(http://phandroid.s3.amazonaws.com/wp-content/uploads/2014/10/mountains_hd.jpg);
+    background-image: url(http://travel.aarp.org/content/dam/travel/destination-images/grand-canyon-national-park/2014-01/1400-grand-canyon-national-park-hiker.jpg);
     background-color: #F29A3C ;
-    color: #EAE2D1;
+    color: #fff;
 }
 
 .box-content.box-style-2 {
     background-attachment: fixed;
-    background-image: url(../images/bg-3.jpg);
+    background-image: url(http://a30de2edae0c4b0bc6ba-a8477a60b1c5d9e290ed2e4c0d53743c.r24.cf1.rackcdn.com/2/5/large.jpg);
     color: #eee;
 }
 
 .box-content.box-style-3 {
     background-color: #F29A3C;
-    color: #EAE2D1;
+    color: #fff;
 }
 
 
