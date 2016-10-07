@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CLIMB ON</title>
+    <!-- BOOTSTRAP STYLES-->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- FONTAWESOME STYLES-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <!-- CUSTOM STYLES-->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+    <!-- GOOGLE FONTS-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <style type="text/css">
+    .gradient {
+        text-align: center;
+        /* can be treated like a fallback */
+        background-color: #46302D;
+        /* will be "on top", if browser supports it */
+        background-image: linear-gradient(#46302D, #F29A3C);
+        /* these will reset other properties, like background-position, but it does know what you mean */
+        background: #46302D;
+        background: linear-gradient(#46302D, #907F73);
+    }
+    
+    .panel {
+        background-color: #ece4d5;
+    }
+    
+    .panel-heading {
+        background-color: #E4D9C3;
+    }
+    
+    .form-control input {
+        background-color: #f6f3ed;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="gradient">
+        <div class="row text-center  ">
+            <div class="col-md-4 col-md-offset-4">
+                <img src="http://climbonme.herokuapp.com/images/climbonbadge.png" width="100%">
+                <br />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <strong> Register </strong>
+                    </div>
+                    <div class="panel-body">
+                        <form role="form">
+                            <br/>
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><i class="fa fa-circle-o-notch"  ></i></span>
+                                <input type="text" class="form-control" placeholder="Your Name" />
+                            </div>
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><i class="fa fa-tag"  ></i></span>
+                                <input type="text" class="form-control" placeholder="Desired Username" />
+                            </div>
+                            <div class="form-group input-group">
+                                <span class="input-group-addon">@</span>
+                                <input type="text" class="form-control" placeholder="Your Email" />
+                            </div>
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><i class="fa fa-lock"  ></i></span>
+                                <input type="password" class="form-control" placeholder="Enter Password" />
+                            </div>
+                            <div class="form-group input-group">
+                                <span class="input-group-addon"><i class="fa fa-lock"  ></i></span>
+                                <input type="password" class="form-control" placeholder="Retype Password" />
+                            </div>
+                            <a href="app.html" class="btn btn-success ">REGISTER</a>
+                            <hr /> Already Registered? <a href="login.html">login.</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- METISMENU SCRIPTS -->
+    <script src="assets/js/jquery.metisMenu.js"></script>
+    <!-- CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
