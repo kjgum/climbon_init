@@ -26,7 +26,7 @@ body {
 #page-wrapper {
     padding: 15px 15px;
     min-height: 600px;
-    background: #EAE2D1;
+    background: #A6A354;
 }
 
 #page-inner {
@@ -46,7 +46,7 @@ body {
 }
 
 h2 {
-    color: #f00;
+    color: #74723A;
 }
 
 h4 {
@@ -72,7 +72,7 @@ p {
     =============================================*/
 
 .panel-back {
-    background-color: #F8F8F8;
+    background-color: #f8f6f1;
 }
 
 .noti-box {
@@ -361,7 +361,7 @@ p {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #B40101;
+    background-color: #74723A;
 }
 
 .navbar-default .navbar-toggle {
@@ -439,7 +439,7 @@ font-weight: 700;
 }
 .sidebar-collapse .nav > li > a {
     color:#fff;
-    background:#202020;
+    background:#46302D;
     text-shadow:none;
     
 }
@@ -452,7 +452,7 @@ font-weight: 700;
 .sidebar-collapse .nav > li > a:hover,
 .sidebar-collapse .nav > li > a:focus {
     
-    background:#46302D;
+    background:#74723A;
     outline:0;
 }
 
@@ -464,7 +464,7 @@ font-weight: 700;
     left:20px;
     width:15px;
     height:1px;
-    background:#ff0000;
+    background:#46302D;
     top:20px;
 }
 .nav-second-level > li > a:after,
@@ -475,7 +475,7 @@ font-weight: 700;
     left:20px;
     width:1px;
     height:100%;
-    background:#ff0000;
+    background:#46302D;
     top:0px;
     z-index:10;
 }
@@ -489,7 +489,7 @@ font-weight: 700;
 }
 .navbar-side {
     border:none;
-    background-color: #202020;
+    background-color: #46302D;
     
 }
 .navbar-cls-top {
@@ -509,10 +509,10 @@ border:0px solid black;
      
 }
 .navbar-header {
-    background: #A70303;
+    background: #46302D;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-background-color: #B40101;
+background-color: #74723A;
 }
 .navbar-default .navbar-toggle {
 border-color: #fff;
