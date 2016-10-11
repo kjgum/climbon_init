@@ -1,11 +1,6 @@
 
 #Climb On
 
-##Synopsis
+##Climb Good
 
-Climb Good.     
-
-
-##Code Example
-
-<img width="400" alt="schema" src="http://climbonme.herokuapp.com/assets/img/climbonbadge.png">
+<img width="400" alt="schema" src="http://climbonme.herokuapp.com/assets/img/climbonbadge.png" text-align="center">
