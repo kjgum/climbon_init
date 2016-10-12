@@ -44,7 +44,6 @@ h4 {
     -moz-border-radius: 0px;
     border-radius: 0px;
     color: white; 
-    padding: 15px 50px 5px 50px; 
     float: right;
     font-size: 16px;"
 }
@@ -53,6 +52,24 @@ p {
     font-size: 16px;
     line-height: 25px;
     padding-top: 20px;
+}
+
+input.form-control {
+    background-color: #f6f3ed;
+    border: none;
+    border-radius: 0px;
+    width: 100px;
+}
+
+input {
+    width: 100px;
+}
+
+.input-group-addon {
+    background-color: #74723A;
+    color: #F6F3ED;
+    border-radius: 0px;
+    border:none;
 }
 
 
@@ -322,7 +339,7 @@ p {
 
 .nav-third-level > li > a:after,
 .nav-third-level > li > a:before {
-    left: 40px;
+    left: 0px;
 }
 
 .navbar-side {
@@ -548,5 +565,16 @@ background-color: #FFF;
     }
     .navbar {
         border-radius: 0px;
+    }
+
+
+
+
+}
+
+
+@media(min-width:768px) {
+    #logout {
+        float: left;
     }
 }
