@@ -1,11 +1,6 @@
-
-
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Damion);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
-
-
-
 body {
     font-family: 'Open Sans', sans-serif;
     color: #666;
@@ -22,7 +17,6 @@ body {
     padding: 0;
     margin: 0;
 }
-
 
 html {
     -webkit-text-size-adjust: none;
@@ -216,6 +210,19 @@ body.sub-page .logo {
     padding: 7px;
 }
 
+.person {
+    background-color: #EAE2D1;
+    height: 100%;
+    opacity: .8;
+    margin: 30px;
+    padding: 20px;
+    color: #46302D;
+}
+
+.person img {
+    opacity: 1;
+}
+
 
 /* -------------------#A6A354--------------------------------------------------------- */
 
@@ -226,7 +233,7 @@ body.sub-page .logo {
 /* ---------------------------------------------------------------------------- */
 
 #nav {
-    font-family:;
+    font-family: ;
 }
 
 #nav > .navbar-inner {
@@ -434,7 +441,7 @@ body.sub-page .logo {
 .box-content.box-style-1 {
     background-attachment: fixed;
     background-image: url(http://travel.aarp.org/content/dam/travel/destination-images/grand-canyon-national-park/2014-01/1400-grand-canyon-national-park-hiker.jpg);
-    background-color: #F29A3C ;
+    background-color: #F29A3C;
     color: #fff;
 }
 
@@ -453,7 +460,7 @@ body.sub-page .logo {
 /*box 1*/
 
 .box-item img {
-  width: 100px;
+    width: 100px;
 }
 
 .box-content.box-1 .box-item h3 {
@@ -488,7 +495,9 @@ body.sub-page .logo {
     line-height: 2;
 }
 
+
 /*box 3*/
+
 .box-content.box-3 {}
 
 .portfolio-box {
@@ -583,13 +592,13 @@ body.sub-page .logo {
 .box-content.box-4 blockquote:before {
     top: 0;
     left: 0;
-    content: "\201C";
+    /*content: "\201C";*/
 }
 
 .box-content.box-4 blockquote:after {
     top: 0;
     right: 0;
-    content: "\201D";
+    /*content: "\201D";*/
 }
 
 @media only screen and (max-width: 1100px) {
